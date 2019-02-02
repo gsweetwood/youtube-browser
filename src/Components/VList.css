@@ -1,0 +1,44 @@
+body {
+  margin: 10px 10px;
+  background-color: #305754;
+}
+div > .item {
+  display: inline-flex;
+  border-bottom: 2px solid gray;
+  margin-top: 10px;
+  /* float: right; */
+}
+
+.content {
+  display: flex;
+  align-self: auto;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.description {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  transition: 1s;
+  max-width: 150px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.vid {
+  display: inline-flex;
+  align-content: center;
+  font-weight: bold;
+}
