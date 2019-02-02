@@ -2,10 +2,14 @@ body {
   margin: 10px 10px;
   background-color: #305754;
 }
-div > .item {
+h1 {
+  text-align: center;
+}
+.item {
   display: inline-flex;
   border-bottom: 2px solid gray;
   margin-top: 10px;
+  margin-bottom: 10px;
   /* float: right; */
 }
 

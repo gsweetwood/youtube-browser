@@ -7,7 +7,7 @@ class VideoList extends React.Component {
     return this.props.videos.map(video => {
       return (
         //the prop Key needs to be in the highest div/jsx element
-        <div>
+        <div className=".item">
           <VideoItem
             onSelectedVideo={this.props.onSelectedVideo}
             video={video}
